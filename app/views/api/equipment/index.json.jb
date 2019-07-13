@@ -1,0 +1,8 @@
+@equipment.map do |equipment|
+  {
+    machine_name: equipment.machine_name,
+    category: equipment.category,
+    price: equipment.price,
+    id: equipment.id,
+  }
+end
