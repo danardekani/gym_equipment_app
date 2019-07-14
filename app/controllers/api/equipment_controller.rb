@@ -28,4 +28,10 @@ class Api::EquipmentController < ApplicationController
     @equipment.save
     render 'show.json.jb'
   end
+
+  def delete
+    equipment = Equipment.find_by(id: params[:id])
+    equipment.destroy
+    render json: {message: "You have successfully deleted this item."}
+  end
 end

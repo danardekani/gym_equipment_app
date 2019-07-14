@@ -8,5 +8,6 @@ Rails.application.routes.draw do
     get '/equipment/:id' => 'equipment#show'
     post '/equipment' => 'equipment#create'
     patch "/equipment/:id" => "equipment#update"
+    delete '/equipment/:id' => 'equipment#delete'
   end
 end
