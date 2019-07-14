@@ -1,0 +1,6 @@
+{
+id: @equipment.id,
+machine_name: @equipment.machine_name,
+price: @equipment.price,
+category: @equipment.category
+}
